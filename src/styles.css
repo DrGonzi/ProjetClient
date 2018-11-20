@@ -1,1 +1,25 @@
-/* You can add global styles to this file, and also import other style files */
+/* colors for backgrounds anbd texts */
+
+.bg-green-apple {
+  background-color: rgba(192, 239, 112, 1);
+}
+
+.text-green-apple {
+  color: #c0ef70;
+}
+
+.bg-pink {
+  background-color: rgba(200, 11, 200, 1);
+}
+
+.text-pink {
+  color: rgba(200, 11, 200, 1);
+}
+
+.bg-dark-gray {
+  background-color: rgba(63, 67, 73, 1);
+}
+
+.text-dark-gray {
+  color: rgba(63, 67, 73, 1);
+}
