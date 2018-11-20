@@ -11,12 +11,11 @@ import { WhoAmIComponent } from './components/who-am-i/who-am-i.component';
 const ROUTES: Routes = [
   { path: '', component: LandingComponent },
   { path: 'accueil', component: AccueilComponent },
-  { path: 'accueil', component: AccueilComponent },
   { path: 'coaching', component: CoachingComponent },
-  { path: 'contact', component: ContactComponent },
   { path: 'massage', component: MassageComponent },
-  { path: 'rendez-vous', component: RdvComponent },
   { path: 'qui-suis-je', component: WhoAmIComponent },
+  { path: 'contact', component: ContactComponent },
+  { path: 'rendez-vous', component: RdvComponent },
 ];
 
 @NgModule({

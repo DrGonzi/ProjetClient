@@ -10,6 +10,7 @@ import { WhoAmIComponent } from './components/who-am-i/who-am-i.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { RdvComponent } from './components/rdv/rdv.component';
 import { AppRoutingModule } from './app-routing.module';
+import { MenuComponent } from './components/menu/menu.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { AppRoutingModule } from './app-routing.module';
     MassageComponent,
     WhoAmIComponent,
     ContactComponent,
-    RdvComponent
+    RdvComponent,
+    MenuComponent
   ],
   imports: [
     BrowserModule,
