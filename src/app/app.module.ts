@@ -9,6 +9,7 @@ import { MassageComponent } from './components/massage/massage.component';
 import { WhoAmIComponent } from './components/who-am-i/who-am-i.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { RdvComponent } from './components/rdv/rdv.component';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { RdvComponent } from './components/rdv/rdv.component';
     RdvComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
